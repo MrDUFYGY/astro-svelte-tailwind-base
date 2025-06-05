@@ -1,13 +1,18 @@
 {
-  "name": "hidroapp-valijaelectronica-desktop",
-  "type": "module",
+  "name": "astro-svelte-tailwind-base",
+  "type": "commonjs",
   "version": "0.0.1",
-  "private": true,
+  "description": "Plantilla base para proyectos con Astro, Svelte y Tailwind CSS!",
+  "main": "main.js",
+  "author": "DUFYGY",
+  "license": "MIT",
+
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "electron:start": "electron ."
   },
   "dependencies": {
     "@astrojs/svelte": "5.0.3",
@@ -16,6 +21,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.8",
     "autoprefixer": "10.4.19",
+    "electron": "^36.4.0",
     "postcss": "8.4.38",
     "svelte": "4.2.7",
     "tailwindcss": "4.1.8",
