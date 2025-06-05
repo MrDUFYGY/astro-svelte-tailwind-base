@@ -1,0 +1,24 @@
+{
+  "name": "hidroapp-valijaelectronica-desktop",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "5.0.3",
+    "astro": "5.8.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.38",
+    "svelte": "4.2.7",
+    "tailwindcss": "4.1.8",
+    "typescript": "5.3.3"
+  }
+}
